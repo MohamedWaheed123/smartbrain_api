@@ -1,13 +1,11 @@
 {
   "name": "smart-brain-api",
-  "homepage": "https://MohamedWaheed123.github.io/smartbrain-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "nodemon server.js"
+   
   },
   "author": "",
   "license": "ISC",
