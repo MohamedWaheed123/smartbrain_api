@@ -55,7 +55,7 @@ const database={
 }
 
 app.get('/',(req,res)=>{
-    res.json(database.users);
+    res.json("its working");
 })
 
 app.post('/signin',(req,res)=>{signIn.handleSignIn(req,res,db,bcrypt)})
